@@ -1,0 +1,32 @@
+{
+  "name": "levidrome-hangman",
+  "description": "Hangman game using Levidrome words and definitions",
+  "version": "1.0.0",
+  "author": "Rob Wise <rwise914@gmail.com>",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "classnames": "^2.2.5",
+    "firebase": "^4.12.0",
+    "gatsby": "^1.9.238",
+    "gatsby-link": "^1.6.39",
+    "gatsby-plugin-react-helmet": "^2.0.8",
+    "lodash": "^4.17.5",
+    "numeral": "^2.0.6",
+    "react-helmet": "^5.2.0",
+    "semantic-ui-react": "^0.79.0"
+  },
+  "keywords": [
+    "levidrome",
+    "hangman"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.11.1"
+  }
+}

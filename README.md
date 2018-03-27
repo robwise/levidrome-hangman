@@ -28,5 +28,6 @@ gatsby develop
 
 ```sh
 yarn global add surge
-surge
+gatsby build
+surge public www.levidromes.ca
 ```
